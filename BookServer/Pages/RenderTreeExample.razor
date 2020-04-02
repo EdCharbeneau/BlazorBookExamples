@@ -1,0 +1,33 @@
+﻿@page "/rendertreeexample"
+<h3>RenderTree Example</h3>
+<p>See source code to toggle the key attribute.</p>
+
+<ul class="list-group">
+    @foreach (var item in items)
+    {
+        @* remove key attribute to see the effect on checkbox *@
+        <li @key="item.Id" class="list-group-item">
+            <h1>@item.Value</h1>
+            <input type="checkbox" />
+        </li>
+    }
+</ul>
+
+<button @onclick="_ => items = items.Reverse()">Reverse</button>
+@code {
+    // class Color {int Id, string Value}
+    IEnumerable<Color> items = new Color[] {
+ new Color {Id = 0, Value = "Green" },
+ new Color {Id = 1, Value = "Blue" },
+ new Color {Id = 2, Value = "Orange" },
+ new Color {Id = 3, Value = "Purple" }
+ };
+}
+
+@code {
+    public class Color
+    {
+        public int Id { get; set; }
+        public string Value { get; set; }
+    }
+}
