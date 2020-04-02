@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29924.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookWasm", "BookWasm\BookWasm.csproj", "{CD2DD165-BDD3-4A4B-821A-B7E0B1F5473F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookServer", "BookServer\BookServer.csproj", "{F62FB0EB-CA4F-4F79-A153-F1FB1C80C3B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookServer", "BookServer\BookServer.csproj", "{F62FB0EB-CA4F-4F79-A153-F1FB1C80C3B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
