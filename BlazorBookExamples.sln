@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookWasm", "BookWasm\BookWa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookServer", "BookServer\BookServer.csproj", "{F62FB0EB-CA4F-4F79-A153-F1FB1C80C3B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorClassLibrary1", "RazorClassLibrary1\RazorClassLibrary1.csproj", "{DDEE9C71-BA61-4B50-9C74-0F15C78C212E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F62FB0EB-CA4F-4F79-A153-F1FB1C80C3B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F62FB0EB-CA4F-4F79-A153-F1FB1C80C3B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F62FB0EB-CA4F-4F79-A153-F1FB1C80C3B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDEE9C71-BA61-4B50-9C74-0F15C78C212E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDEE9C71-BA61-4B50-9C74-0F15C78C212E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDEE9C71-BA61-4B50-9C74-0F15C78C212E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDEE9C71-BA61-4B50-9C74-0F15C78C212E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

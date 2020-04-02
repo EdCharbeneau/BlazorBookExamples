@@ -1,0 +1,17 @@
+﻿@page "/classlib"
+@inject IJSRuntime js
+
+<h3>ClassLib Consumer</h3>
+
+<h1>Hello, @message!</h1>
+<Component1></Component1>
+
+<button @onclick="ShowPrompt">Show Prompt</button>
+
+@code {
+    string message = "world";
+    async Task ShowPrompt()
+    {
+        message = await ExampleJsInterop.Prompt(js, "Say hello:");
+    }
+}
