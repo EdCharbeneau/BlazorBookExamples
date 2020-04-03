@@ -19,10 +19,26 @@ What you'll find in the Free Blazor e-book:
 - Razor Class Libraries
 - and much more...
 
-If you're interested in Blazor and would like to learn how to be productive in just a quick 120 page read, then get your free copy of the Blazor E-book from the link below.
-
 ## What are people saying?
 
 > "it has great design, ninjas and tons of code - if you are looking for compelling read, there is not nothing better I can recommend" -Jon Galloway (Microsoft, Program Manager)
+
+## Videos
+
+<div style="display: flex;">
+<div style="flex: 50%;  padding: 10px;">
+  
+[![Book Examples Video 1](https://i9.ytimg.com/vi/v1iR95_sGBY/mqdefault.jpg?time=1585951180550&sqp=CLThnvQF&rs=AOn4CLC2mfOUKOwvc0QJEV8xY7Wuz2ZtYg)](https://youtu.be/4uH2Ahz6fIE)
+
+  </div>
+  <div style="flex: 50%;  padding: 10px;">
+  
+[![Book Examples Video 2](https://i9.ytimg.com/vi/NtTsxtI3NbQ/mq2.jpg?sqp=CNfonvQF&rs=AOn4CLBHi7nVDdziS0FUW6wkHGUw7luqsw)](https://youtu.be/0fuV9Zp0Wl0)
+
+  </div>
+</div>
+## How do I get it
+
+If you're interested in Blazor and would like to learn how to be productive in just a quick 120 page read, then get your free copy of the Blazor E-book from the link below.
 
 [Get the Free Blazor E-book](https://www.telerik.com/campaigns/blazor/wp-beginners-guide-ebook)
