@@ -21,4 +21,8 @@ What you'll find in the Free Blazor e-book:
 
 If you're interested in Blazor and would like to learn how to be productive in just a quick 120 page read, then get your free copy of the Blazor E-book from the link below.
 
+## What are people saying?
+
+> "it has great design, ninjas and tons of code - if you are looking for compelling read, there is not nothing better I can recommend" -Jon Galloway (Microsoft, Program Manager)
+
 [Get the Free Blazor E-book](https://www.telerik.com/campaigns/blazor/wp-beginners-guide-ebook)
