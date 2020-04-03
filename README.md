@@ -4,7 +4,7 @@ This repo contains the examples from the Book [Blazor: A Beginner's Guide
 A quick start guide to productivity with Blazor
 
 <a href="https://www.telerik.com/campaigns/blazor/wp-beginners-guide-ebook">
-![Get the Free Blazor E-book](/img/posts/1200x628_Facebook-Twitter-LinkedIn-Reddit.png)
+![Get the Free Blazor E-book](https://www.telerik.com/campaigns/blazor/wp-beginners-guide-ebook)
 </a>
 
 At the 2017 Microsoft MVP (Most Valuable Professional) Summit I watched Steve Sanderson unveil his experimental framework to a room full of .NET developers. I watched the room fill with excitement and give rounds of standing applause. The excitement validated my own opinion that this was something .NET developers like myself have always wanted for the web. I wrote this book to help the .NET community quickly grasp what Blazor has to offer and share in the excitement we all felt at the MVP Summit.
