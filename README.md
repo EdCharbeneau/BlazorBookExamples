@@ -1,6 +1,6 @@
 # Blazor Book Examples
 
-This repo contains the examples from the Book [Blazor: A Beginner's Guide
+[This repo](https://github.com/EdCharbeneau/BlazorBookExamples) contains the examples from the Book [Blazor: A Beginner's Guide
 A quick start guide to productivity with Blazor](https://www.telerik.com/campaigns/blazor/wp-beginners-guide-ebook)
 
 [![Get the Free Blazor E-book](https://edcharbeneau.com/img/posts/1200x628_Facebook-Twitter-LinkedIn-Reddit.png)](https://www.telerik.com/campaigns/blazor/wp-beginners-guide-ebook)
