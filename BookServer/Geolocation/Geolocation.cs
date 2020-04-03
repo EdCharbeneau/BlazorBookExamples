@@ -2,7 +2,7 @@
 using System;
 using System.Threading.Tasks;
 
-namespace BookWasm.Geolocation
+namespace BookServer.Geolocation
 {
     public class Geolocation
     {

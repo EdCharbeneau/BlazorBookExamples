@@ -1,0 +1,61 @@
+﻿@inject IJSRuntime js
+@using Geolocation
+@page "/geo"
+
+<h1>Hello, world!</h1>
+
+@if (hasGeoLocation)
+{
+    <p>Browser has GeoLocation</p>
+}
+
+@if (position != null)
+{
+    <p>Current position: @position.Coords.Latitude Lat,  @position.Coords.Longitude Long</p> 
+    <p>Position reported at: @position.Timestamp</p>
+}
+
+@switch (error)
+{
+    case PositionError.PERMISSION_DENIED:
+        <p>GeoLocation Permisson Denied</p> 
+        break;
+    case PositionError.POSITION_UNAVAILABLE:
+        <p>GeoLocation Position Unavailable</p> 
+        break;
+    case PositionError.TIMEOUT: 
+        <p>GeoLocation Timeout</p>
+        break;
+    default: 
+        break;
+}
+
+@code { 
+    Position position;
+    PositionError error; 
+    bool hasGeoLocation;
+
+    void OnSuccess(Position p) {
+        position = p; 
+        StateHasChanged(); 
+    }
+
+    void OnError(PositionError e) { 
+        error = e; 
+        StateHasChanged(); 
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            var geo = new Geolocation(js); 
+            hasGeoLocation = await geo.HasGeolocationFeature(); 
+            StateHasChanged();
+
+            var options = new PositionOptions() { EnableHighAccuracy = false, Timeout = 200, MaximumAge = 0 };
+            await geo.GetCurrentPosition(OnSuccess, OnError, options);
+        }
+    }
+
+}
