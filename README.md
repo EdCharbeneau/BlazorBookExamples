@@ -25,9 +25,9 @@ What you'll find in the Free Blazor e-book:
 
 ## Videos
  
-[![Book Examples Video 1](https://i9.ytimg.com/vi/v1iR95_sGBY/mqdefault.jpg?time=1585951180550&sqp=CLThnvQF&rs=AOn4CLC2mfOUKOwvc0QJEV8xY7Wuz2ZtYg)](https://youtu.be/4uH2Ahz6fIE)
+[![Book Examples Video 1](docs/YouTube.png)](https://youtu.be/4uH2Ahz6fIE)
 
-[![Book Examples Video 2](https://i9.ytimg.com/vi/NtTsxtI3NbQ/mq2.jpg?sqp=CNfonvQF&rs=AOn4CLBHi7nVDdziS0FUW6wkHGUw7luqsw)](https://youtu.be/0fuV9Zp0Wl0)
+[![Book Examples Video 2](docs/YouTube.png)](https://youtu.be/0fuV9Zp0Wl0)
 
 ## How do I get it
 
