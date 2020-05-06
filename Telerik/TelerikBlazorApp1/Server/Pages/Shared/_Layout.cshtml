@@ -1,17 +1,21 @@
 ﻿<!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>BlankClientAspNetHostedBlazorApp</title>
-    <base href="/" />
     <script src="_content/Telerik.UI.for.Blazor/js/telerik-blazor.js" defer></script>
     <link id="theme" href="css/light.css" rel="stylesheet" />
     <script src="themeChooser.js"></script>
 </head>
-<body>
-    <app>Loading...</app>
 
-    <script src="_framework/blazor.webassembly.js"></script>
+<body>
+    <div class="main">
+        <div class="content px-4">
+            @RenderBody()
+        </div>
+    </div>
 </body>
+
 </html>

@@ -1,6 +1,7 @@
 ﻿using BookWasm.Data;
 using Microsoft.AspNetCore.Components;
 using System.Net.Http;
+using System.Net.Http.Json;
 using System.Threading.Tasks;
 
 namespace BookWasm.Pages
@@ -13,7 +14,7 @@ namespace BookWasm.Pages
 
         protected override async Task OnInitializedAsync()
         {
-            forecasts = await Http.GetJsonAsync<WeatherForecast[]>("sample-data/weather.json");
+            forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
         }
 
     }

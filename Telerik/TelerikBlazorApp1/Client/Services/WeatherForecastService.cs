@@ -6,6 +6,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using TelerikBlazorApp1.Shared;
 using Microsoft.AspNetCore.Components;
+using System.Net.Http.Json;
 
 namespace TelerikBlazorApp1.Services
 {
@@ -21,13 +22,13 @@ namespace TelerikBlazorApp1.Services
 
         public async Task<List<WeatherForecast>> GetForecastListAsync(DateTime startDate)
         {
-            var data = await Http.GetJsonAsync<List<WeatherForecast>>("WeatherForecast?startDate=" + startDate.ToString(CultureInfo.InvariantCulture));
+            var data = await Http.GetFromJsonAsync<List<WeatherForecast>>("WeatherForecast?startDate=" + startDate.ToString(CultureInfo.InvariantCulture));
             return data;
         }
 
         public async Task UpdateForecastAsync(WeatherForecast forecastToUpdate)
         {
-            await Http.PostJsonAsync("WeatherForecast", forecastToUpdate);
+            await Http.PostAsJsonAsync("WeatherForecast", forecastToUpdate);
         }
 
         public async Task DeleteForecastAsync(WeatherForecast forecastToRemove)
@@ -37,7 +38,7 @@ namespace TelerikBlazorApp1.Services
 
         public async Task InsertForecastAsync(WeatherForecast forecastToInsert)
         {
-            await Http.PutJsonAsync("WeatherForecast", forecastToInsert);
+            await Http.PutAsJsonAsync("WeatherForecast", forecastToInsert);
         }
     }
 }

@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.DependencyInjection;
+using System;
+using System.Net.Http;
 using System.Threading.Tasks;
 using TelerikBlazorApp1.Services;
 
@@ -11,10 +13,10 @@ namespace TelerikBlazorApp1.Client
         {
             var builder = WebAssemblyHostBuilder.CreateDefault(args);
             builder.RootComponents.Add<App>("app");
-            builder.Services.AddBaseAddressHttpClient();
-            builder.Services.AddScoped<WeatherForecastService>();
-            builder.Services.AddTelerikBlazor();
 
+            builder.Services.AddTelerikBlazor();
+            builder.Services.AddTransient(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
+            builder.Services.AddScoped<WeatherForecastService>();
             await builder.Build().RunAsync();
         }
     }
