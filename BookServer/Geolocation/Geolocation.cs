@@ -6,8 +6,8 @@ namespace BookServer.Geolocation
 {
     public class Geolocation
     {
-        private Action<Position> OnGetPosition;
-        private Action<PositionError> OnGetPositionError;
+        private Action<Position>? OnGetPosition;
+        private Action<PositionError>? OnGetPositionError;
 
         private readonly IJSRuntime js;
         public Geolocation(IJSRuntime js)
@@ -25,7 +25,7 @@ namespace BookServer.Geolocation
         [JSInvokable]
         public void RaiseOnGetPositionError(PositionError err) => OnGetPositionError?.Invoke(err);
 
-        public async ValueTask GetCurrentPosition(Action<Position> onSuccess, Action<PositionError> onError, PositionOptions options = null)
+        public async ValueTask GetCurrentPosition(Action<Position> onSuccess, Action<PositionError> onError, PositionOptions? options = null)
         {
             OnGetPosition = onSuccess;
             OnGetPositionError = onError;
@@ -48,7 +48,7 @@ namespace BookServer.Geolocation
 
     public class Position
     {
-        public Coords Coords { get; set; }
+        public Coords? Coords { get; set; }
         public DateTime Timestamp { get; set; }
     }
 

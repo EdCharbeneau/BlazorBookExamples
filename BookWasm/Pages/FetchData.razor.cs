@@ -1,16 +1,14 @@
 ﻿using BookWasm.Data;
 using Microsoft.AspNetCore.Components;
-using System.Net.Http;
 using System.Net.Http.Json;
-using System.Threading.Tasks;
 
 namespace BookWasm.Pages
 {
     public partial class FetchData
     {
-        [Inject] HttpClient Http { get; set; }
+        [Inject] HttpClient Http { get; set; } = null!;
 
-        private WeatherForecast[] forecasts;
+        private WeatherForecast[]? forecasts;
 
         protected override async Task OnInitializedAsync()
         {

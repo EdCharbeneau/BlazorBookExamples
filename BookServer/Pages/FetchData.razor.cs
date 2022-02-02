@@ -8,9 +8,9 @@ namespace BookServer.Pages
     public partial class FetchData
     {
         [Inject]
-        WeatherForecastService ForecastService { get; set; }
+        WeatherForecastService ForecastService { get; set; } = null!;
 
-        private WeatherForecast[] forecasts;
+        private WeatherForecast[]? forecasts;
 
         protected override async Task OnInitializedAsync()
         {
