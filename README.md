@@ -30,7 +30,10 @@ What you'll find in the Free Blazor e-book:
 - [WeeklyForecast](https://blazorrepl.telerik.com/QmaHumvK448wvklt45) using foreach in Razor to display a list of cards.
 - [WeatherDay](https://blazorrepl.telerik.com/mcaxkQvU47G5SEz128), creating a component and repending it with foreach.
 - [Basic parameters](https://blazorrepl.telerik.com/QmuHEmvg50eQ6FDG11), using parameters and one-way binding.
-- [WeatherDay with data](https://blazorrepl.telerik.com/cmYdOQlB04ZVhS8P09), dynamically populate components based on a collection of data.
+- [Working with data](https://blazorrepl.telerik.com/cmYdOQlB04ZVhS8P09), dynamically populate components based on a collection of data.
+- [Templates](https://blazorrepl.telerik.com/cwExYQbL11b3N2U218), using RenderFragment to create a template region.
+- [Event Handling](https://blazorrepl.telerik.com/wQunacFL31Ge1VrL18), using EventCallback to create interactive components.
+- 
 
 ## Videos
  
