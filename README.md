@@ -23,6 +23,15 @@ What you'll find in the Free Blazor e-book:
 
 > "it has great design, ninjas and tons of code - if you are looking for compelling read, there is not nothing better I can recommend" -Jon Galloway (Microsoft, Program Manager)
 
+## Quick Examples with Telerik REPL for Blazor
+
+- [Button Click](https://blazorrepl.telerik.com/GlFkPCly54uhbfhx35), binding button events.
+- [WeatherForecast](https://blazorrepl.telerik.com/ccudOFPD24TrVFCP19) using HttpClient, displayed in a table element.
+- [WeeklyForecast](https://blazorrepl.telerik.com/QmaHumvK448wvklt45) using foreach in Razor to display a list of cards.
+- [WeatherDay](https://blazorrepl.telerik.com/mcaxkQvU47G5SEz128), creating a component and repending it with foreach.
+- [Basic parameters](https://blazorrepl.telerik.com/QmuHEmvg50eQ6FDG11), using parameters and one-way binding.
+- [WeatherDay with data](https://blazorrepl.telerik.com/cmYdOQlB04ZVhS8P09), dynamically populate components based on a collection of data.
+
 ## Videos
  
 [![Book Examples Video 1](docs/YouTube.png)](https://youtu.be/4uH2Ahz6fIE)
