@@ -33,7 +33,9 @@ What you'll find in the Free Blazor e-book:
 - [Working with data](https://blazorrepl.telerik.com/cmYdOQlB04ZVhS8P09), dynamically populate components based on a collection of data.
 - [Templates](https://blazorrepl.telerik.com/cwExYQbL11b3N2U218), using RenderFragment to create a template region.
 - [Event Handling](https://blazorrepl.telerik.com/wQunacFL31Ge1VrL18), using EventCallback to create interactive components.
-- 
+- [Two-way binding](https://blazorrepl.telerik.com/QmuxucbC142kbvwY09), using data binding to convert inches to centimeters.
+- [JavaScript Interop](https://blazorrepl.telerik.com/QcExaxPg30en4lpy24), using JavaScript to access Geolocation APIs.
+- [Telerik Grid](https://blazorrepl.telerik.com/GwadYdbU18aWeg5m42), using the Telerik UI for Blazor Grid to simplify development.
 
 ## Videos
  
